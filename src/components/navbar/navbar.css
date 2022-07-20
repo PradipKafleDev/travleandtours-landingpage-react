@@ -1,0 +1,60 @@
+.navbar{
+    height:50px;
+    background-color:#0071c2;
+    display:flex;
+    justify-content: center;
+   
+}
+.logo{
+   
+height: 40px;
+width: 50px;
+border-radius: 10;
+
+    
+}
+
+
+.navContainer{
+    width:100%;
+    max-width: 1024px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    font-weight:bolder;
+    font-size: 2em;
+   
+}
+/* .navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+     background-color: #0071c2;
+    color:White;
+    font-weight: 500;
+    border:none;
+    padding:10px;
+    cursor:pointer;
+
+} */
+.navItems{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.navButton{
+    border:none;
+    background: #003580 ;
+    padding: 12px 30px;
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    transition: .4s;
+    border-radius: 2px;
+}
